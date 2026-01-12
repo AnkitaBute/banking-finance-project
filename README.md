@@ -11,7 +11,7 @@
  want to accelerate software delivery speed, quality and reducing feedback time between developers and testers. Currently, they are
  facing following problems, because of various technologies involved in the project.
 
-  ***you need to implement Continuous Integration & Continuous Deployment using following tools:*** <br>
+***you need to implement Continuous Integration & Continuous Deployment using following tools:*** <br>
 **✓Git- For version control for tracking changes in the code files** <br>
  **✓Maven–For Continuous Build** <br>
  **✓Jenkins- For continuous integration and continuous deployment** <br>
