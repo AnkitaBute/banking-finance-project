@@ -1,7 +1,7 @@
 
 # Project Title
 
-FinanceMe is a Global leading Banking and Financial services provider based out of Germany. The company offers products and
+ FinanceMe is a Global leading Banking and Financial services provider based out of Germany. The company offers products and
  services like Banking, Funds Management, Loans, Debit Cards and Credits Cards, Investment Banking etc. Initially the company
  was using a Monolithic application architecture, As the company grown, It started facing difficulties in managing the application
  infrastructure and application deployments and Scaling of application when the traffic load increases. FinanceMe has decided to opt
