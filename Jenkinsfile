@@ -11,7 +11,7 @@ pipeline {
         stage('Building  docker image'){
             steps{
                 script{
-                    sh 'docker build -t ankitabute2/finance-tg:v1 .'
+                    sh 'docker build -t AnkitaBute/finance-tg:v1 .'
                     sh 'docker images'
                 }
             }
@@ -20,7 +20,7 @@ pipeline {
             steps{
                 withCredentials([usernamePassword(credentialsId: 'docker-creds', passwordVariable: 'PASS', usernameVariable: 'USER')]) {
                     sh "echo $PASS | docker login -u $USER --password-stdin"
-                    sh 'docker push ankitabute2/finance-tg:v1'
+                    sh 'docker push AnkitaBute/finance-tg:v1'
                 }
             }
         }
