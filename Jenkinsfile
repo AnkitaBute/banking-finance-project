@@ -20,7 +20,7 @@ pipeline {
             steps{
                 withCredentials([usernamePassword(credentialsId: 'docker-creds', passwordVariable: 'PASS', usernameVariable: 'USER')]) {
                     sh "echo $PASS | docker login -u $USER --password-stdin"
-                    sh 'docker push laxg66/finance-tg:v1'
+                    sh 'docker push ankitabute2/finance-tg:v1'
                 }
             }
         }
