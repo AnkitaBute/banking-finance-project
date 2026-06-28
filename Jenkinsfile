@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('build project'){
             steps{
-                git branch: 'main', url: 'https://github.com/loks66/banking-finance-project.git'
+                 git branch: 'main', url: 'https://github.com/AnkitaBute/banking-finance-project.git'
                 sh 'mvn clean package'
               
             }
@@ -11,7 +11,7 @@ pipeline {
         stage('Building  docker image'){
             steps{
                 script{
-                    sh 'docker build -t laxg66/finance-tg:v1 .'
+                    sh 'docker build -t ankitabute2/finance-tg:v1 .'
                     sh 'docker images'
                 }
             }
